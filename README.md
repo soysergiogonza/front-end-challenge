@@ -1,39 +1,36 @@
-<img align="right" width="200" height="100" src="https://ada-school.org/wp-content/uploads/2022/02/ada-school-logo.svg">
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Frontend Mentor 👩🏻‍💻 👨🏾‍💻 👨🏻‍💻 👩🏽‍💻 Code Challenge
+## Getting Started
 
-Thank you 🙏 for taking the time to implement this coding challenge to build a small functional Web Application FrontEnd using *JavaScript* or *TypeScript* as prefered.
+First, run the development server:
 
-## Conditions
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-* Take 2-4 hours to implement your project.
-* Use coding best practices.
-* Create a fork of this repo and share your solution when finished.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Coding Challenge  💻 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-A bus company wants to allow their users to book online tickets. Please help them build a simple Web UI with the following requirements:
-* Simple form to create a new booking (origin, destination, number of passengers, date and time)
-* Display the bookings on a list view.
-* Display Booking full details when clicking on a list item.
-* Bookings should be stored in LocalStorage
+## Learn More
 
-*Note:* Use any UI libraries of your choice.  
+To learn more about Next.js, take a look at the following resources:
 
-## Expected Quality Attributes:
-* Use coding best practices: Code style, naming conventions, etc.
-* Correct data modeling to store information in a flexible way.
-* Create reusable components and functions.
-* Correct architecture to be able to plug API services in the future.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Desired technology stack:
-* JavaScript or TypeScript
-* React or Angular or Vue
-* npm or Yarn
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Submit your solution
+## Deploy on Vercel
 
-Once you're done, please send us an email to [tech@ada-school.org](mailto:tech@ada-school.org) with the subject: TECH_CHALLENGE_[YOUR NAME] and do not forget to include the link to your repository with the solution. After you submit your code, we will review it and contact you to discuss next steps. 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Good luck! 💪
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
